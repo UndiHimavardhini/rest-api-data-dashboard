@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Country Data Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🌍 Country Data Dashboard</h1>
+  <p>REST API • Live Country Statistics</p>
+</header>
+
+<section class="search-box">
+  <input type="text" id="countryInput" placeholder="Enter country name (India)" />
+  <button onclick="loadCountry()">Search</button>
+</section>
+
+<section id="dashboard" class="dashboard"></section>
+
+<div id="error" class="error hidden">
+  Country data not found. Please try again.
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
