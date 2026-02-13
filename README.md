@@ -1,14 +1,13 @@
-# 🌍 Country Data Dashboard (REST API)
+#  Country Data Dashboard (REST API)
 
 A modern, responsive **REST API Data Dashboard** built using **HTML, CSS, and JavaScript**.  
 This project fetches **live country information** (India by default) from a public REST API and displays it in a clean, dashboard-style UI.
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 🔗 **Live Website:**  
-👉 https://your-live-demo-link-here
-
+https://undihimavardhini.github.io/rest-api-data-dashboard/
 
 ---
 
@@ -26,5 +25,3 @@ Displayed information includes:
 - National flag
 
 ---
-
-**REST Countries API**
